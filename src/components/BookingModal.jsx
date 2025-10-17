@@ -33,7 +33,7 @@ const BookingPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Booking Data:", { ...formData, service });
-    alert(`Booking confirmed for ${service.title}!`);
+    alert(`Booking confirmed`);
   };
 
   if (!service) return null;
