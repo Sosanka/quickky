@@ -7,7 +7,7 @@ const ServiceGrid = () => {
   const [selectedService, setSelectedService] = useState(null);
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section id="services" className="py-16 bg-gray-50 scroll-mt-24">
       <h2 className="text-4xl font-bold text-center text-blue-600 mb-10">
         Popular Services
       </h2>

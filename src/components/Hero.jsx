@@ -59,9 +59,17 @@ const Hero = () => {
             </div>
           </div>
 
-          <button className="bg-blue-600 text-white px-8 py-4 rounded-2xl shadow-lg hover:bg-blue-700 transition">
-            Explore All Services
-          </button>
+         <button
+            className="bg-blue-600 text-white px-8 py-4 rounded-2xl shadow-lg hover:bg-blue-700 transition"
+            onClick={() => {
+            const el = document.getElementById('services');
+          if (el) {
+           el.scrollIntoView({ behavior: 'smooth' });
+             }
+             }}
+               >
+                   Explore All Services
+         </button>
         </div>
 
         <div className="md:w-1/2 flex justify-center mt-12 md:mt-0 relative">
