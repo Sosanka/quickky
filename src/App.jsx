@@ -10,6 +10,8 @@ import BookingModel from "./components/BookingModal"
 import ProvidersPage from "./pages/ProvidersPage";
 import ServiceProviders from "./components/ServiceProviders";
 import ProviderDetail from "./components/ProviderDetail";
+// import Contact from "./pages/Contact";
+
 import "./App.css";
 
 const App = () => {
@@ -22,7 +24,8 @@ const App = () => {
         <Route path="/service" element={<Service />} />
         <Route path="/providers" element={<ProvidersPage />} />
         <Route path="/booking" element={<BookingModel />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />}/>
+        {/* <Route path="/contact" element={<Contact />} /> */}
         <Route path="/providers" element={<ServiceProviders />} />
         <Route path="/provider-detail" element={<ProviderDetail />} />
       </Routes>
