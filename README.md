@@ -41,7 +41,7 @@ A lightweight React + Vite project scaffold with ESLint and a small, ready-to-ru
 
 * React
 * Vite
-* ESLint
+* Tailwind css
 * Plain JavaScript (no TypeScript configured by default)
 
 ## Getting started
