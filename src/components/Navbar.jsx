@@ -98,10 +98,10 @@ const Navbar = () => {
 
         {/* Desktop Actions */}
         <div className="hidden md:flex gap-3">
-          <button className="px-4 py-1 rounded-full bg-blue-500 text-white font-semibold hover:bg-rose-500 transition">
+          <button className="px-4 py-1 rounded-full bg-blue-500 text-white font-semibold hover:bg-rose-500 transition cursor-pointer">
             Signup
           </button>
-          <button className="px-4 py-1 rounded-full bg-blue-500 text-white font-semibold hover:bg-rose-500 transition">
+          <button className="px-4 py-1 rounded-full bg-blue-500 text-white font-semibold hover:bg-rose-500 transition cursor-pointer">
             Login
           </button>
         </div>
@@ -179,10 +179,10 @@ const Navbar = () => {
 
           {/* Actions */}
           <div className="p-4 mb-8 space-y-4">
-            <button className="w-full py-3 rounded-2xl bg-blue-500 text-white text-lg font-bold shadow hover:bg-rose-500 transition">
+            <button className="w-full py-3 rounded-2xl bg-blue-500 text-white text-lg font-bold shadow hover:bg-rose-500 transition cursor-pointer">
               Signup
             </button>
-            <button className="w-full py-3 rounded-2xl bg-blue-500 text-white text-lg font-bold shadow hover:bg-rose-500 transition">
+            <button className="w-full py-3 rounded-2xl bg-blue-500 text-white text-lg font-bold shadow hover:bg-rose-500 transition cursor-pointer">
               Login
             </button>
           </div>
