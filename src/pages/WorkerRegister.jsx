@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import WorkerRegisterForm from '../components/WorkerRegisterForm';
-import ServiceSelection from '../components/ServiceSelection';
-import DocumentUpload from '../components/DocumentUpload';
+import WorkerRegisterForm from '../components/Worker/WorkerRegisterForm';
+import ServiceSelection from '../components/Worker/ServiceSelection';
+import DocumentUpload from '../components/Worker/DocumentUpload';
 
 const WorkerRegister = () => {
   const [step, setStep] = useState(1);

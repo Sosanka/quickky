@@ -1,8 +1,8 @@
 import React from "react";
-import Hero from "../components/Hero";
-import ServiceGrid from "../components/ServiceGrid";
-import FeedbackSection from "../components/FeedbackSection";
-import ServiceCard from "../components/ServiceCard";
+import Hero from "../components/Homepage/Hero";
+import ServiceGrid from "../components/Homepage/ServiceGrid";
+import FeedbackSection from "../components/Homepage/FeedbackSection";
+import ServiceCard from "../components/Homepage/ServiceCard";
 import services from "../data/services";
 
 

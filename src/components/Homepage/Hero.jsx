@@ -1,5 +1,5 @@
 import React from "react";
-import coverImage from "../assets/cover.png";
+import coverImage from "../../assets/cover.png";
 import {
   FaCamera,
   FaPalette,

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ServiceCard from "./ServiceCard";
-import BookingModal from "./BookingModal";
-import services from "../data/services";
+import BookingModal from "../UserBooking/BookingModal";
+import services from "../../data/services";
 
 const ServiceGrid = () => {
   const [selectedService, setSelectedService] = useState(null);

@@ -1,7 +1,7 @@
 // src/pages/ProvidersPage.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import ServiceProviders from "../components/ServiceProviders";
+import ServiceProviders from "../components/UserBooking/ServiceProviders";
 
 const ProvidersPage = () => {
   const navigate = useNavigate();

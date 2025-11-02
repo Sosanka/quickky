@@ -1,7 +1,7 @@
 // src/components/ServiceProviders.jsx
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import providers from "../data/providers";
+import providers from "../../data/providers";
 
 const ServiceProviders = () => {
   const { state } = useLocation();

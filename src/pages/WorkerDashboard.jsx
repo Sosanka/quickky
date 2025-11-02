@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import WorkerStats from "../components/WorkerStats";
-import BookingList from "../components/BookingList";
-import WorkerProfile from "../components/WorkerProfile";
+import WorkerStats from "../components/Worker/WorkerStats";
+import BookingList from "../components/Worker/BookingList";
+import WorkerProfile from "../components/Worker/WorkerProfile";
 
 const WorkerDashboard = () => {
   const [activeTab, setActiveTab] = useState("overview");
