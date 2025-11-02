@@ -11,6 +11,8 @@ import ProvidersPage from "./pages/ProvidersPage";
 import ServiceProviders from "./components/ServiceProviders";
 import ProviderDetail from "./components/ProviderDetail";
 // import Contact from "./pages/Contact";
+import WorkerRegister from './pages/WorkerRegister';
+import WorkerDashboard from './pages/WorkerDashboard';
 
 import "./App.css";
 
@@ -28,6 +30,8 @@ const App = () => {
         {/* <Route path="/contact" element={<Contact />} /> */}
         <Route path="/providers" element={<ServiceProviders />} />
         <Route path="/provider-detail" element={<ProviderDetail />} />
+        <Route path="/worker/register" element={<WorkerRegister />} />
+        <Route path="/worker/dashboard" element={<WorkerDashboard />} />
       </Routes>
       <Footer />
     </Router>
